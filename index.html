@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Responsive Travel Website</title>
+</head>
+<body>
+
+    <!-- Section -->
+    <section>
+        <!-- Header -->
+        <header>
+            <a href="#" class="logo">Travel</a>
+            <div class="menu">
+                <a href="#" onclick="toggleMenu()"><img src="menu.png" alt=""></a>
+            </div>
+        </header>
+        <!-- Fin Header -->
+
+        <!-- Video background -->
+        <video src="video.mp4" autoplay loop muted></video>
+        <!-- Fin Video background -->
+
+        <!-- Aside (Menu Lateral) -->
+        <aside>
+            <div class="menu">
+                <a href="#" onclick="toggleMenu()" ><img src="close.png" alt=""></a>
+            </div>
+            <div class="box">
+                <img src="bali.jpeg" alt="">
+                <div class="texto">
+                    <p><span>Bali</span> - Indonesia</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="flakstad.jpeg" alt="">
+                <div class="texto">
+                    <p><span>Flakstad</span> - Noruega</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="venecia.jpeg" alt="">
+                <div class="texto">
+                    <p><span>Venecia</span> - Italia</p>
+                </div>
+            </div>
+        </aside>
+        <!-- Fin Aside -->
+
+        <!-- Contenido -->
+        <div class="contenido">
+            <h2>Travel</h2>
+            <p>Tu aventura comienza aquí y ahora</p>
+        </div>
+        <!-- Fin Contenido -->
+
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card" id="card1">
+                <img src="map.png" alt="">
+                <p>Nuevos tours disponibles para Egipto</p>
+            </div>
+            <div class="card" id="card2">
+                <img src="map.png" alt="">
+                <p>Bali ha sido añadida al tour de Indonesia</p>
+            </div>
+            <div class="card" id="card3">
+                <img src="map.png" alt="">
+                <p>A partir de Febrero estarán disponibles los tours para Brasil</p>
+            </div>
+        </div>
+        <!-- Fin Cards -->
+
+        <!-- Redes Sociales -->
+        <div class="redesSociales">
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+        <!-- Fin Redes Sociales -->
+
+    </section>
+    <!-- Fin Section -->
+
+    <!-- Script libreria IonicIcons (Iconos) -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Script libreria ScrollReveal.js -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Script index.js -->
+    <script src="index.js"></script>
+</body>
+</html>
