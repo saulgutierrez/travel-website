@@ -10,3 +10,5 @@ Technologies used:
 <li>Ionic Icons</li>
 <li>Scroll Reveal</li>
 <li>Google Fonts</li>
+
+![image](https://github.com/saulgutierrez/travel-website/assets/62368834/467405a5-038f-436c-8280-9da04257af49)
